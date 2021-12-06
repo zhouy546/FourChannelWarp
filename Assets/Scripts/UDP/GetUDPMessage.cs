@@ -94,6 +94,7 @@ public class GetUDPMessage: MonoBehaviour
 	/// </summary>
     void OnApplicationQuit()
     {
+        test.Abort();
         m_newsock.Close();       
     }
 }

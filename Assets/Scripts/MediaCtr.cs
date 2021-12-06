@@ -8,6 +8,8 @@ public class MediaCtr : MonoBehaviour
     public static MediaCtr instance;
 
     MediaPlayer mediaplayer;
+
+    public GameObject DebugUI;
     private void Awake()
     {
         if (instance == null)
@@ -28,7 +30,10 @@ public class MediaCtr : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.F1))
+        {
+            DebugUI.SetActive(!DebugUI.active);
+        }
     }
 
     public void Ini()
