@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ChannelFour_.unity
     guid: 4c586beff2c414a43a50a81a7ab46054
+  - enabled: 1
+    path: Assets/Scenes/ChannelFour_ HAP.unity
+    guid: 40f53f515a3562441bacf6cbb0e7ae80
   m_configObjects: {}
